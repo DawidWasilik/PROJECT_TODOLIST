@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(78, 78, 78);
+    background-color: rgb(43, 43, 43);
     color: white;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
@@ -40,6 +40,7 @@ form button {
     transition: all 0.3 ease;
     margin-left: 0.5rem;
 }
+
 form button:hover {
     color: white;
     background: rgb(255, 0, 0);
@@ -78,9 +79,9 @@ form button:hover {
     flex: 1;
 }
 
-.trash-btn, 
+.trash-btn,
 .complete-btn {
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 1rem;
     cursor: pointer;
@@ -88,7 +89,7 @@ form button:hover {
 }
 
 .complete-btn {
-    background: rgb(255, 200, 0);
+    background: rgb(255, 0, 0);
 }
 
 .trash-btn {
